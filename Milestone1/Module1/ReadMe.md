@@ -64,8 +64,6 @@ Emphesize is the semantic version of italic.
 
 ### Input
 ``` html
-```
-``` html
 <form>
   <input type="text|password|number|checkbox|date" name="" id="" />
 
