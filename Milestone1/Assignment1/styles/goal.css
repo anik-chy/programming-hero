@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 809px;
+}
+
+/* common properties */
+.primary-font-color{
+    color: #151414;
+}
+.secondary-font-color{
+    color: #444343;
+}
+.btn-primary {
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 36px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+.btn-secondary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 36px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+/* banner styles */
+.banner-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-details{
+    padding-right: 230px;
+    text-align: right;
+}
+.banner-title {
+    padding-top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    margin-bottom: 24px;
+}
+.banner-description {
+    width: 525px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+/* failurs styles */
+.failurs{
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+    align-items: center;
+    margin-top: 130px;
+}
+.failures-content{
+    width: 416px;
+}
+.failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.failures-description{
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+  
+ul li:before {
+    content: '✓';
+    color: #16D887;
+}
+
+/* plans section styles */
+.plans-section-title{
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.plan-content{
+    text-align: center;
+}
+.plans-title{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plans-description{
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 130px;
+}
+/* advetizement styles */
