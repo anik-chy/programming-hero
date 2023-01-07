@@ -117,6 +117,26 @@ ul li:before {
 .plans-description{
     font-weight: 500;
     font-size: 25px;
-    margin-bottom: 130px;
 }
 /* advetizement styles */
+.ad-container{
+    background: url('../images/watch.png'),url('../images/gradient2.png');
+    background-blend-mode: multiply;
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 130px 230px;
+}
+.ad-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-left: 64px;
+    margin-bottom: 24px;
+}
+.ad-btn{
+    margin-left: 64px;
+    margin-bottom: 60px;
+}
+/* footer styles */
