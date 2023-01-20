@@ -89,6 +89,8 @@ ul {
 ul li:before {
     content: '✓';
     color: #16D887;
+    padding-right: 10px;
+    font-weight: 900;
 }
 
 /* plans section styles */
@@ -140,3 +142,44 @@ ul li:before {
     margin-bottom: 60px;
 }
 /* footer styles */
+.footer-container{
+    display: flex;
+    /* gap: 330px; */
+    justify-content: space-between;
+    background: #151414;
+    padding: 130px 230px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 16px;
+    max-width: 485px;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.subscribe-container input[type="email"]{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    /* width: 100%; */
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    background: #151414;
+    padding: 21px;
+}
+.future-contract-icons{
+    margin-top: 32px;
+    margin-right: 17px;
+}
