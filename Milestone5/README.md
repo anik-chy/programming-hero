@@ -23,6 +23,18 @@ const li = document.createElement('li');
 li.innerText = 'pahartoli bon';
 // 3. add the child
 placesList.appendChild(li);
+
+// set innerHTML directly
+const sectionDress = document.createElement('section');
+sectionDress.innerHTML = `
+<h1>My Dress section</h1>
+<ul>
+    <li>T-shirt</li>
+    <li>Lungi</li>
+    <li>Sando genji</li>
+</ul>
+`
+mainContainer.appendChild(sectionDress);
 ```
 ## How to add an event
 - Option 1
@@ -56,3 +68,4 @@ document.getElementById('make-goldenrod').addEventListener('click', function(){
 ```javascript
 window.location.href='bank.html'
 ```
+
