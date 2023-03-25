@@ -5,12 +5,12 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
     2. get the value from the element
     3. convert string value to a number
     */
-  const newDepositAmount = getInputFieldValueById("deposit-field");
+  const newDepositAmount = getInputFieldValueById("deposit-field").value;
   /* 
     1. get previous deposit total by id
 
     */
-  const previousDepositTotal = getTextElementValueById("deposit-total");
+  const previousDepositTotal = getElementValueById("deposit-total").value;
 
   // calculate new deposit total
   const newDepositTotal = previousDepositTotal + newDepositAmount;
@@ -22,4 +22,4 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
   const previousBalanceTotal = getextElementValueById("balance-total");
   const newBalanceTotal = previousBalanceTotal + newDepositAmount;
   setTextElementValueById("balance-total", newBalanceTotal);
-);
+});
